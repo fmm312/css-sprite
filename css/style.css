@@ -1,0 +1,64 @@
+body{
+	background-color: #ffffff;
+	color: #555555;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.social-media-box{
+	text-align: center;
+	width: 29%;
+	margin: 20px 0px;
+	border: 1px solid rgba(0,0,0,.2);
+	padding: 40px 0px;
+}
+
+.social-icon{	
+	background-image: url('../imgs/social_media.png');
+	width: 120px;
+	height: 110px;
+	margin: 0 auto;
+}
+
+.facebook-icon{
+	background-position: 0px 0px;
+}
+
+.twitter-icon{	
+	background-position: -130px 0px;
+}
+
+.instagram-icon{
+	background-position: -260px 0px;
+}
+
+.youtube-icon{
+	background-position: -130px -260px;
+}
+
+.linkedin-icon{
+	background-position: -515px 0px;
+}
+
+.behance-icon{
+	background-position: 0px -130px;
+}
+
+.pinterest-icon{
+	background-position: -385px 0px;
+}
+
+.google-icon{
+	background-position: -130px -130px;
+}
+
+.skype-icon{
+	background-position: -390px -130px;
+}
+
+@media(max-width: 600px){
+	.social-media-box{
+		width: 100%;
+	}
+}
